@@ -4,9 +4,9 @@ class Modal {
 
     var titulo: String
     var descripcion: String
-    var imagen: Int
+    var imagen: String
 
-    constructor(titulo: String, descripcion: String, imagen: Int) {
+    constructor(titulo: String, descripcion: String, imagen: String) {
         this.titulo = titulo
         this.descripcion = descripcion
         this.imagen = imagen
